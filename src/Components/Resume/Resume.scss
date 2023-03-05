@@ -1,0 +1,26 @@
+@import './Variables';
+
+.resume {
+	padding: 20px;
+
+	.heading {
+		border-bottom-color: rgb(0, 0, 0);
+		border-bottom-style: double;
+		border-bottom-width: 3px;
+		display: grid;
+		grid-template-areas: 'applicant contactInfo';
+		grid-template-columns: auto auto;
+		padding-bottom: $spacing-secondary;
+
+		h1 {
+			font-size: 3.5em;
+			grid-area: applicant;
+			margin: 0;
+		}
+
+		.contactInfo {
+			align-self: end;
+			grid-area: contactInfo;
+		}
+	}
+}

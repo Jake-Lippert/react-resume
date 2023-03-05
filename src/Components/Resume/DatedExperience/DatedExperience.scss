@@ -1,0 +1,13 @@
+.datedExperience {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-template-areas: 'name range';
+
+	.experienceName {
+		grid-area: name;
+	}
+
+	.experienceRange{
+		grid-area: range;
+	}
+}

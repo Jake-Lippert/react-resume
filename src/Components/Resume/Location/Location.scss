@@ -1,0 +1,23 @@
+@import '../Variables';
+
+.location {
+	h3 {
+		margin-block-start: $spacing-primary;
+		margin-block-end: $spacing-secondary;
+	}
+
+	.experience {
+		padding-left: $spacing-primary;
+		page-break-inside: avoid;
+
+		h4 {
+			margin-block-start: $spacing-secondary;
+			margin-block-end: $spacing-secondary;
+		}
+
+		ul {
+			margin-block-start: $spacing-secondary;
+			margin-right: $spacing-primary;
+		}
+	}
+}

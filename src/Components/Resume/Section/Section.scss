@@ -1,0 +1,14 @@
+@import '../Variables';
+
+.section {
+	h2 {
+		color: rgb(0, 128, 0);
+		font-family: Consolas, monospace;
+		margin-block-end: $spacing-secondary;
+		text-transform: uppercase;
+
+		&:before {
+			content: '// ';
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"extends": "stylelint-config-recommended-scss",
+	"plugins": [
+		"stylelint-scss",
+		"stylelint-order"
+	],
+	"rules": {
+		"color-named": "never",
+		"color-no-hex": true,
+		"indentation": [
+			"tab",
+			{ "severity": "error" }
+		],
+		"order/order": [
+			"dollar-variables",
+			"at-variables",
+			"custom-properties",
+			"declarations"
+		],
+		"order/properties-alphabetical-order": true
+	}
+}
