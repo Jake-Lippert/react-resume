@@ -1,10 +1,4 @@
 .skillSet {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-
-	& > span {
-		display: list-item;
-		list-style-type: disc;
-		margin-left: 25px;
-	}
 }

@@ -6,8 +6,8 @@ export type SkillSetProps = {
 };
 export function SkillSet({ skills }: SkillSetProps): JSX.Element {
 	return (
-		<div className='skillSet'>
-			{skills.map((s, i) => <span key={i}>{s}</span>)}
-		</div>
+		<ul className='skillSet'>
+			{skills.map((s, i) => <li key={i}>{s}</li>)}
+		</ul>
 	);
 }
