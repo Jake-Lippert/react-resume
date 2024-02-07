@@ -21,15 +21,18 @@ export const jakeLippert: ResumeState = {
 			contact: 'https://github.com/Jake-Lippert'
 		}
 	],
-	summary: 'Architect with twelve years of experience in web development. Focused on clean, testable code, full project scopes, and enabling developer efficiency.  Always looking to expand my personal skillset and those of developers around me.',
+	summary: 'Software engineer with thirteen years of experience in web development. Focused on clean, testable code, full project scopes, and enabling developer efficiency.  Always looking to expand my personal skillset and those of developers around me.',
 	skills: [
 		'C#',
 		'TypeScript',
 		'MS-SQL',
-		'CSS',
+		'(S)CSS',
 		'React',
 		'Redux',
 		'Mui',
+		'AG Grid',
+		'Angular',
+		'NgRx',
 		'Knockout',
 		'Dapper',
 		'Entity Framework',
@@ -37,6 +40,7 @@ export const jakeLippert: ResumeState = {
 		'Moq',
 		'ASP.Net',
 		'RESTful APIs',
+		'GraphQL',
 		'WCF',
 		'Windows Services',
 		'Git',
@@ -46,12 +50,28 @@ export const jakeLippert: ResumeState = {
 	],
 	employers: [
 		{
+			name: 'Istation',
+			experience: [
+				{
+					name: 'Senior Software Engineer',
+					start: new Date(2023, 4, 3),
+					end: null,
+					details: [
+						'Introduced TypeScript and React/Redux within a legacy jQuery frontend to enable modern development efficiencies',
+						'Introduced NgRx to coordinate frontend data querying, storage, and aggregation',
+						'Driving the frontend transition to a component oriented design to promote code reuse',
+						'Analyzed and documented data layer to prepare for upcoming db migration'
+					]
+				}
+			]
+		},
+		{
 			name: 'StreamLink Software',
 			experience: [
 				{
 					name: 'Lead Architect',
 					start: new Date(2018, 9, 1),
-					end: null,
+					end: new Date(2023, 4, 2),
 					details: [
 						'Designed and implemented a TypeScript React/Redux SPA to facilitate an in-place conversion from Web Forms partial views and Razor pages to a modern frontend',
 						'Rewrote user identity and feature access infrastructure in order to reduce excessive querying down to a single db call per session',
@@ -59,14 +79,15 @@ export const jakeLippert: ResumeState = {
 						'Refined overly-complex database schemas in order to improve query performance and developer comprehension',
 						'Started transition of codebase from .Net Framework to .Net Core',
 						'Standardized templated email construction and pdf generation into reusable utilities',
-						'Evaluates current codebase to identify areas needing improvement and builds out the roadmap and estimated timeline for implementation of changes',
-						'Reviews pull requests and mentors developers on how to improve their code patterns and skillsets',
-						'Analyzes new feature specs to ensure edge cases are accounted for and solid plans are in place for development teams',
-						'Works with Dev-Ops team to ensure feature environment CI/CD definitions and releases are providing timely delivery of development progress to QA teams'
+						'Evaluated current codebase to identify areas needing improvement and builds out the roadmap and estimated timeline for implementation of changes',
+						'Reviewed pull requests and mentors developers on how to improve their code patterns and skillsets',
+						'Analyzed new feature specs to ensure edge cases are accounted for and solid plans are in place for development teams',
+						'Worked with Dev-Ops team to ensure feature environment CI/CD definitions and releases are providing timely delivery of development progress to QA teams',
+						'Removed reliance upon .Net session to avoid session locking and improve page load times'
 					]
 				},
 				{
-					name: 'Senior Software Developer',
+					name: 'Senior Software Engineer',
 					start: new Date(2017, 10, 1),
 					end: new Date(2018, 8, 30),
 					details: [
@@ -74,7 +95,7 @@ export const jakeLippert: ResumeState = {
 					]
 				},
 				{
-					name: 'Software Developer',
+					name: 'Software Engineer',
 					start: new Date(2015, 11, 1),
 					end: new Date(2017, 9, 31),
 					details: [
@@ -91,7 +112,7 @@ export const jakeLippert: ResumeState = {
 			name: 'One Call Now',
 			experience: [
 				{
-					name: 'Software Developer',
+					name: 'Software Engineer',
 					start: new Date(2013, 0, 14),
 					end: new Date(2015, 10, 30),
 					details: [

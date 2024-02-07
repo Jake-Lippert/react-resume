@@ -8,7 +8,10 @@
 
 	.experience {
 		padding-left: $spacing-primary;
+		/*
+		This is currently forcing too much whitespace compared to its prior benefit of 'grouping' employers within printed pages
 		page-break-inside: avoid;
+		*/
 
 		h4 {
 			margin-block-start: $spacing-secondary;
