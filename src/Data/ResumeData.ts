@@ -27,10 +27,14 @@ export const jakeLippert: ResumeState = {
 		'TypeScript',
 		'MS-SQL',
 		'(S)CSS',
-		'React',
+		'React (Functional)',
+		'React Hooks',
+		'State Management',
+		'Webpack',
 		'Redux',
-		'Mui',
+		'MUI',
 		'AG Grid',
+		'Jest',
 		'Angular',
 		'NgRx',
 		'Knockout',
@@ -57,9 +61,12 @@ export const jakeLippert: ResumeState = {
 					start: new Date(2023, 4, 3),
 					end: null,
 					details: [
-						'Introduced TypeScript and React/Redux within a legacy jQuery frontend to enable modern development efficiencies',
-						'Introduced NgRx to coordinate frontend data querying, storage, and aggregation',
+						'Builds reports in Angular for use by teachers, principals, and district administrators to provide insight into student, teacher, and campus performance',
 						'Driving the frontend transition to a component oriented design to promote code reuse',
+						'Introduced NgRx to coordinate frontend data querying, storage, and aggregation',
+						'Mentors fellow coworkers on new technologies, the patterns that come along with them, and why they\'re beneficial',
+						'Ensures selectors and reducers have passing unit tests which make use of Jest',
+						'Introduced Webpack, TypeScript and React with functional components, hooks, custom HoCs, Immer, and Redux, within a legacy jQuery frontend to enable modern development efficiencies',
 						'Analyzed and documented C# data layer to prepare for upcoming db migration from Oracle to PostgreSQL'
 					]
 				}
@@ -73,7 +80,8 @@ export const jakeLippert: ResumeState = {
 					start: new Date(2018, 9, 1),
 					end: new Date(2023, 4, 2),
 					details: [
-						'Designed and implemented a TypeScript React/Redux SPA to facilitate an in-place conversion from C# Web Forms partial views and Razor pages to a modern frontend',
+						'Designed and implemented a TypeScript React/Redux SPA utilizing functional components, hooks, custom HoCs, Immer, and MUI to facilitate an in-place conversion from C# Web Forms partial views and Razor pages to a modern frontend',
+						'Ensured selectors, reducers, and other logic had passing Jest unit tests',
 						'Rewrote user identity and feature access infrastructure in order to reduce excessive querying down to a single db call per session',
 						'Replaced custom, one-off reports with a third party reporting engine pointing at an Azure-mirrored reporting db',
 						'Refined overly-complex database schemas in order to improve query performance and developer comprehension',
